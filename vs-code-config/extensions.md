@@ -13,10 +13,24 @@ This file curates a list of recommended Vs Code extensions for developers workin
 7. <strong>Auto Close Tag</strong> - by: <q>Jun Han</q>
 8. <strong>Auto Complete Tag</strong> - by: <q>Jun Han</q>
 9. <strong>Auto Rename Tag</strong> - by: <q>Jun Han</q>
+9. <strong>Color Highlight</strong> - by: <q>Sergii N</q>
+9. <strong>Image Preview</strong> - by: <q>Kiss Tamás</q>
 10. <strong>SQLite Viewer</strong> - by: <q>Florian Klampfer</q>
 11. <strong>vscode-pdf</strong> - by: <q>tomoki1207</q>
 12. <strong>Rainbow CSV</strong> - by: <q>mechatroner</q>
 13. <strong>Code Time</strong> - by: <q>Sofware</q>
+14. <strong>Code Runner</strong> - by: <q>Jun Han</q>
+15. <strong>Polacode</strong> - by: <q>P & P</q>
+16. <strong>ChatGPT</strong> - by: <q>zhang-renyang</q>
+17. <strong>Bookmarks</strong> - by: <q>Alessandro Fragnani</q>
+18. <strong>Better Comments</strong> - by: <q>Aaron Bond</q>
+19. <strong>Code Spell Checker</strong> - by: <q>Steet Side Software</q>
+20. <strong>Portuguese - Code Spell Checker</strong> - by: <q>Steet Side Software</q>
+21. <strong>CSS Formatter</strong> - by: <q>Martin Aeschlimann</q>
+22. <strong>EditorConfig for VS Code</strong> - by: <q>EditorConfig</q>
+23. <strong>Reload</strong> - by: <q>natqe</q>
+24. <strong>shell-format</strong> - by: <q>foxundermoon</q>
+
 
 
 <h2 id="javaExtensions"> Java Extensions </h2>
@@ -40,12 +54,22 @@ This file curates a list of recommended Vs Code extensions for developers workin
 3. <strong>Python Debugger</strong> - by: <q>Microsoft</q>
 4. <strong>Django</strong> - by: <q>Baptiste Darthenay</q>
 5. <strong>Django Template Support</strong> - by: <q>junstyle</q>
+6. <strong>autoDocstring</strong> - by: <q>Nils Werner</q>
 
 
 <h2 id="javaScriptExtensions"> JavaScript (Node.js and React) Extensions </h2>
 
-1. <strong>ES7+ React/Redux/React-Native snippets</strong> - by: <q>dsznajder</q>
-2. <strong>StandardJS - JavaScript Standard Style</strong> - by: <q>Standard</q>
+1. <strong>StandardJS - JavaScript Standard Style</strong> - by: <q>Standard</q>
+2. <strong>ES7+ React/Redux/React-Native snippets</strong> - by: <q>dsznajder</q>
+3. <strong>Console Ninja </strong> - by: <q>Wallaby.js</q>
+4. <strong>Auto Import </strong> - by: <q>steoates</q>
+5. <strong>Auto Import - ES6, TS, JSX, TSX</strong> - by: <q>Sergey Korenuk</q>
+
+<h2 id="pythonExtensions"> Git Extensions </h2>
+1. <strong>GitLens</strong> - by: <q>GitKraken</q>
+2. <strong>Git History</strong> - by: <q>Don Jayamanne</q>
+3. <strong>Git Pull Requests and Issues</strong> - by: <q>GitHub</q>
+
 
 
 <h2 id="note"> Note </h2>
