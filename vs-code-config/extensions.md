@@ -8,15 +8,15 @@ This file curates a list of recommended Vs Code extensions for developers workin
 2. <strong>vscode-icons</strong> - by: <q>VSCode Icons Team</q>
 3. <strong>IntelliCode</strong> - by: <q>Microsoft</q>
 4. <strong>IntelliCode API Usage Examples</strong> - by: <q>Microsoft</q>
-5. <strong>Blackbox AI Code</strong> -by: <q>BLACKBOX AI</q>
-6. <strong>Thunder Client</strong> -by: <q>Thunder Client</q>
-7. <strong>Auto Close Tag</strong> -by: <q>Jun Han</q>
-8. <strong>Auto Complete Tag</strong> -by: <q>Jun Han</q>
-9. <strong>Auto Rename Tag</strong> -by: <q>Jun Han</q>
+5. <strong>Blackbox AI Code</strong> - by: <q>BLACKBOX AI</q>
+6. <strong>Thunder Client</strong> - by: <q>Thunder Client</q>
+7. <strong>Auto Close Tag</strong> - by: <q>Jun Han</q>
+8. <strong>Auto Complete Tag</strong> - by: <q>Jun Han</q>
+9. <strong>Auto Rename Tag</strong> - by: <q>Jun Han</q>
 10. <strong>SQLite Viewer</strong> - by: <q>Florian Klampfer</q>
 11. <strong>vscode-pdf</strong> - by: <q>tomoki1207</q>
 12. <strong>Rainbow CSV</strong> - by: <q>mechatroner</q>
-13. <strong>Code Time</strong> -by: <q>Sofware</q>
+13. <strong>Code Time</strong> - by: <q>Sofware</q>
 
 
 <h2 id="javaExtensions"> Java Extensions </h2>
@@ -36,6 +36,7 @@ This file curates a list of recommended Vs Code extensions for developers workin
 
 1. <strong>Python</strong> - by: <q>Microsoft</q>
 2. <strong>Pylance</strong> - by: <q>Microsoft</q>
+2. <strong>Pylint</strong> - by: <q>Microsoft</q>
 3. <strong>Python Debugger</strong> - by: <q>Microsoft</q>
 4. <strong>Django</strong> - by: <q>Baptiste Darthenay</q>
 5. <strong>Django Template Support</strong> - by: <q>junstyle</q>
