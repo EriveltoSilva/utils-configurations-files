@@ -1,11 +1,11 @@
 ## Useful Extensions for VS-Code
 
 <p align="center">
-<a href="globalExtensions"> Global Extensions</a>
-<a href="javaExtensions"> Java Extensions</a>
-<a href="pythonExtensions"> Python Extensions</a>
-<a href="javaScriptExtensions"> JavaScript Extensions</a>
-<a href="iaSupport"> IA Intellisense Extensions</a>
+*<a href="globalExtensions"> Global Extensions</a>
+*<a href="javaExtensions"> Java Extensions</a>
+*<a href="pythonExtensions"> Python Extensions</a>
+*<a href="javaScriptExtensions"> JavaScript Extensions</a>
+*<a href="iaSupport"> IA Intellisense Extensions</a>
 </p>
 
 This file curates a list of recommended Vs Code extensions for developers working with Java, Python, and JavaScript (Node.js and React).
