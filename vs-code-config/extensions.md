@@ -6,6 +6,7 @@
 *<a href="#pythonExtensions"> Python Extensions</a>
 *<a href="#javaScriptExtensions"> JavaScript Extensions</a>
 *<a href="#iaSupport"> IA Intellisense Extensions</a>
+*<a href="#dataBaseExtensions"> Database Extensions</a>
 </p>
 
 This file curates a list of recommended Vs Code extensions for developers working with Java, Python, and JavaScript (Node.js and React).
@@ -21,7 +22,7 @@ This file curates a list of recommended Vs Code extensions for developers workin
 7. <strong>Auto Rename Tag</strong> - by: <q>Jun Han</q>
 8. <strong>Color Highlight</strong> - by: <q>Sergii N</q>
 9. <strong>Image Preview</strong> - by: <q>Kiss Tamás</q>
-10. <strong>SQLite Viewer</strong> - by: <q>Florian Klampfer</q>
+10. <strong>Docker</strong> - by: <q>Microsoft</q>
 11. <strong>vscode-pdf</strong> - by: <q>tomoki1207</q>
 12. <strong>Rainbow CSV</strong> - by: <q>mechatroner</q>
 13. <strong>Code Time</strong> - by: <q>Sofware</q>
@@ -70,14 +71,20 @@ This file curates a list of recommended Vs Code extensions for developers workin
 1. <strong>StandardJS - JavaScript Standard Style</strong> - by: <q>Standard</q>
 2. <strong>ES7+ React/Redux/React-Native snippets</strong> - by: <q>dsznajder</q>
 3. <strong>Console Ninja </strong> - by: <q>Wallaby.js</q>
-4. <strong>Auto Import </strong> - by: <q>steoates</q>
-5. <strong>Auto Import - ES6, TS, JSX, TSX</strong> - by: <q>Sergey Korenuk</q>
+4. <strong>npm Intellisense </strong> - by: <q>Christian Kohler</q>
+5. <strong>Auto Import </strong> - by: <q>steoates</q>
+6. <strong>Auto Import - ES6, TS, JSX, TSX</strong> - by: <q>Sergey Korenuk</q>
 
-<h2 id="pythonExtensions"> Git Extensions </h2>
+<h2 id="pythonExtensions"> Git Extensions </h2>\
+
 1. <strong>GitLens</strong> - by: <q>GitKraken</q>
 2. <strong>Git History</strong> - by: <q>Don Jayamanne</q>
 3. <strong>Git Pull Requests and Issues</strong> - by: <q>GitHub</q>
 
+<h2 id="dataBaseExtensions"> Database Extensions </h2>\
+
+1. <strong>SQLTools</strong> - by: <q>Matheus Teixeira</q>
+2. <strong>SQLite Viewer</strong> - by: <q>Florian Klampfer</q>
 
 <h2 id="iaSupport">Intellisence IA Support</h2>
 
