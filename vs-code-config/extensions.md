@@ -13,12 +13,13 @@ This file curates a list of recommended Vs Code extensions for developers workin
 <h2 id="globalExtensions"> Global Extensions </h2>
 
 1. <strong>Live Server</strong> - by: <q>Ritwick Dey</q>
-2. <strong>vscode-icons</strong> - by: <q>VSCode Icons Team</q>
-6. <strong>Thunder Client</strong> - by: <q>Thunder Client</q>
-7. <strong>Auto Close Tag</strong> - by: <q>Jun Han</q>
-8. <strong>Auto Complete Tag</strong> - by: <q>Jun Han</q>
-9. <strong>Auto Rename Tag</strong> - by: <q>Jun Han</q>
-9. <strong>Color Highlight</strong> - by: <q>Sergii N</q>
+2. <strong>Live Preview</strong> - by: <q>Microsoft</q>
+3. <strong>vscode-icons</strong> - by: <q>VSCode Icons Team</q>
+4. <strong>Thunder Client</strong> - by: <q>Thunder Client</q>
+5. <strong>Auto Close Tag</strong> - by: <q>Jun Han</q>
+6. <strong>Auto Complete Tag</strong> - by: <q>Jun Han</q>
+7. <strong>Auto Rename Tag</strong> - by: <q>Jun Han</q>
+8. <strong>Color Highlight</strong> - by: <q>Sergii N</q>
 9. <strong>Image Preview</strong> - by: <q>Kiss Tamás</q>
 10. <strong>SQLite Viewer</strong> - by: <q>Florian Klampfer</q>
 11. <strong>vscode-pdf</strong> - by: <q>tomoki1207</q>
@@ -26,6 +27,7 @@ This file curates a list of recommended Vs Code extensions for developers workin
 13. <strong>Code Time</strong> - by: <q>Sofware</q>
 14. <strong>Code Runner</strong> - by: <q>Jun Han</q>
 15. <strong>Polacode</strong> - by: <q>P & P</q>
+16. <strong>CodeSnap</strong> - by: <q>adpyke</q>
 17. <strong>Bookmarks</strong> - by: <q>Alessandro Fragnani</q>
 18. <strong>Better Comments</strong> - by: <q>Aaron Bond</q>
 19. <strong>Code Spell Checker</strong> - by: <q>Steet Side Software</q>
