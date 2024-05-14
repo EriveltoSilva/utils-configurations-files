@@ -1,14 +1,19 @@
 ## Useful Extensions for VS-Code
 
+<p align="center">
+<a href="globalExtensions"> Global Extensions</a>
+<a href="javaExtensions"> Java Extensions</a>
+<a href="pythonExtensions"> Python Extensions</a>
+<a href="javaScriptExtensions"> JavaScript Extensions</a>
+<a href="iaSupport"> IA Intellisense Extensions</a>
+</p>
+
 This file curates a list of recommended Vs Code extensions for developers working with Java, Python, and JavaScript (Node.js and React).
 
 <h2 id="globalExtensions"> Global Extensions </h2>
 
 1. <strong>Live Server</strong> - by: <q>Ritwick Dey</q>
 2. <strong>vscode-icons</strong> - by: <q>VSCode Icons Team</q>
-3. <strong>IntelliCode</strong> - by: <q>Microsoft</q>
-4. <strong>IntelliCode API Usage Examples</strong> - by: <q>Microsoft</q>
-5. <strong>Blackbox AI Code</strong> - by: <q>BLACKBOX AI</q>
 6. <strong>Thunder Client</strong> - by: <q>Thunder Client</q>
 7. <strong>Auto Close Tag</strong> - by: <q>Jun Han</q>
 8. <strong>Auto Complete Tag</strong> - by: <q>Jun Han</q>
@@ -21,7 +26,6 @@ This file curates a list of recommended Vs Code extensions for developers workin
 13. <strong>Code Time</strong> - by: <q>Sofware</q>
 14. <strong>Code Runner</strong> - by: <q>Jun Han</q>
 15. <strong>Polacode</strong> - by: <q>P & P</q>
-16. <strong>ChatGPT</strong> - by: <q>zhang-renyang</q>
 17. <strong>Bookmarks</strong> - by: <q>Alessandro Fragnani</q>
 18. <strong>Better Comments</strong> - by: <q>Aaron Bond</q>
 19. <strong>Code Spell Checker</strong> - by: <q>Steet Side Software</q>
@@ -30,7 +34,9 @@ This file curates a list of recommended Vs Code extensions for developers workin
 22. <strong>EditorConfig for VS Code</strong> - by: <q>EditorConfig</q>
 23. <strong>Reload</strong> - by: <q>natqe</q>
 24. <strong>shell-format</strong> - by: <q>foxundermoon</q>
-
+25. <strong>HTML CSS Support</strong> - by: <q>ecmel</q>
+26. <strong>Import Cost</strong> - by: <q>Wix</q>
+27. <strong>Lorem ipsum</strong> - by: <q>Daniel Imms</q>
 
 
 <h2 id="javaExtensions"> Java Extensions </h2>
@@ -70,6 +76,14 @@ This file curates a list of recommended Vs Code extensions for developers workin
 2. <strong>Git History</strong> - by: <q>Don Jayamanne</q>
 3. <strong>Git Pull Requests and Issues</strong> - by: <q>GitHub</q>
 
+
+<h2 id="iaSupport">Intellisence IA Support</h2>
+
+1. <strong>IntelliCode</strong> - by: <q>Microsoft</q>
+2. <strong>IntelliCode API Usage Examples</strong> - by: <q>Microsoft</q>
+3. <strong>Blackbox AI Code</strong> - by: <q>BLACKBOX AI</q>
+4. <strong>Tabnine: AI Autocomplete & Chat for Javascript, Python, Typescript, PHP, GO, Java and more</strong> - by: <q>TabNine</q>
+5. <strong>ChatGPT</strong> - by: <q>zhang-renyang</q>
 
 
 <h2 id="note"> Note </h2>
