@@ -1,157 +1,161 @@
 {
-    "files.autoSave": "afterDelay",
-    "explorer.compactFolders": false,
-    "workbench.iconTheme": "vscode-icons",
-    "git.autofetch": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": 0,
-    // Python settings
-    "python.languageServer": "Pylance", // ms-python.vscode-pylance
-    "python.testing.unittestEnabled": false, // ms-python.python
-    "python.testing.pytestEnabled": true,
-    "python.testing.pytestArgs": [], // -x to bail
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.pylintArgs": [
-      "--load-plugins=pylint_django",
-      "--errors-only"
-    ],
-    "python.formatting.autopep8Args": [
-      "--indent-size=4"
-    ],
-    "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
-    "pylint.args": ["load-plugins=pylint_django"],
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.python", // ms-python.python
-      "editor.tabSize": 4,
-      "editor.insertSpaces": true,
-      "editor.formatOnSave": true,
-      "editor.formatOnType": true,
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-      }
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "vscode-icons",
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  // Python settings
+  "python.languageServer": "Pylance", // ms-python.vscode-pylance
+  "python.testing.unittestEnabled": false, // ms-python.python
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [], // -x to bail
+  // "python.linting.flake8Enabled": true,
+  // "python.linting.mypyEnabled": true,
+  // "python.linting.pylintArgs": [
+  //   "--load-plugins=pylint_django",
+  //   "--errors-only",
+  //   "--django-settings-module=setup.settings"
+  // ],
+  // "python.formatting.autopep8Args": [
+  //   "--indent-size=4"
+  // ],
+  // "python.linting.enabled": true,
+  // "python.linting.pylintEnabled": true,
+  // "python.linting.pylintUseMinimalCheckers": false,
+  // "pylint.args": ["load-plugins=pylint_django"],
+  "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python", // ms-python.python
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "[django-html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "junstyle.vscode-django-support",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  // format settings for js
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll": "explicit",
+      "eslint.autoFixOnSave": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.xml": "html",
+    "*.svg": "html",
+    "*.html": "html",
+    "django-html": "html", // batiste.vscode-django && junstyle.django-template-support
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/base_templates/**/*.html": "django-html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html", // batiste.vscode-django
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  // HTML and CSS Support settings
+  "css.enabledLanguages": [
+    "html",
+    "javascript",
+    "typescript"
+  ],
+  "css.styleSheets": [
+    "src/**/*.css",
+    "style/**/*.css",
+    "assets/**/*.css",
+    "css/**/*.css"
+  ],
+  // Better comments settings
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[html]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "vscode.html-language-features",
-      "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-      }
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[django-html]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": "junstyle.vscode-django-support",
-      "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-      }
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    // format settings for js
-    "[javascript]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-      "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
-        "source.fixAll": "explicit",
-        "eslint.autoFixOnSave": "explicit",
-        "source.organizeImports": "explicit"
-      }
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "files.associations": {
-      "*.js": "javascript",
-      "*.jsx": "javascriptreact",
-      "*.xml": "html",
-      "*.svg": "html",
-      "*.html": "html",
-      "django-html": "html", // batiste.vscode-django && junstyle.django-template-support
-      "**/*.html": "html",
-      "**/templates/**/*.html": "django-html",
-      "**/base_templates/**/*.html": "django-html",
-      "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-    },
-    "emmet.includeLanguages": {
-      "django-html": "html", // batiste.vscode-django
-      "javascript": "javascriptreact",
-      "typescript": "typescriptreact"
-    },
-    // HTML and CSS Support settings
-    "css.enabledLanguages": [
-      "html",
-      "javascript",
-      "typescript"
-    ],
-    "css.styleSheets": [
-      "src/**/*.css",
-      "style/**/*.css",
-      "assets/**/*.css",
-      "css/**/*.css"
-    ],
-    // Better comments settings
-    "better-comments.multilineComments": true,
-    "better-comments.highlightPlainText": true,
-    "better-comments.tags": [
-      {
-        "tag": "!",
-        "color": "#FF2D00",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "tag": "?",
-        "color": "#3498DB",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "tag": "//",
-        "color": "#474747",
-        "strikethrough": true,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "tag": "todo",
-        "color": "#FF8C00",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "tag": "*",
-        "color": "#98C379",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      }
-    ],
-    "tabnine.experimentalAutoImports": true,
-    // Code Spell Dictionary
-    "cSpell.language": "en,pt_PT",
-    "cSpell.userWords": [
-      "jazzmin",
-      "pylint",
-      "REFERER",
-      "tabnine",
-      "venv"
-    ],
-    "terminal.integrated.env.windows": {},
-    "chatgpt.lang": "en"
-  }
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  // Code Spell Dictionary
+  "cSpell.language": "en,pt_PT",
+  "cSpell.userWords": [
+    "jazzmin",
+    "pylint",
+    "REFERER",
+    "tabnine",
+    "venv"
+  ],
+  "terminal.integrated.env.windows": {},
+  "tabnine.experimentalAutoImports": true,
+  "chatgpt.lang": "en"
+}
