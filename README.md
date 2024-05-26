@@ -50,5 +50,3 @@ Feel free to contribute to this repository by submitting your own useful configu
 <h2 id="license">License</h2>
 
 [MIT License](./LICENSE)
-
-**Tags:** configurations, VS Code, Nginx, Postgres, extensions, development, customization, organization, sharing, versioning
