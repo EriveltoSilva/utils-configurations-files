@@ -12,30 +12,17 @@
     "python.testing.unittestEnabled": false, // ms-python.python
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [], // -x to bail
-    // "python.linting.flake8Enabled": true,
-    // "python.linting.mypyEnabled": true,
-    // "python.linting.pylintArgs": [
-    //   "--load-plugins=pylint_django",
-    //   "--errors-only",
-    //   "--django-settings-module=setup.settings"
-    // ],
-    // "python.formatting.autopep8Args": [
-    //   "--indent-size=4"
-    // ],
-    // "python.linting.enabled": true,
-    // "python.linting.pylintEnabled": true,
-    // "python.linting.pylintUseMinimalCheckers": false,
-    // "pylint.args": ["load-plugins=pylint_django"],
+    "pylint.args": ["load-plugins=pylint_django"],
     "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
     "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8",
       "editor.formatOnSave": true,
-      "editor.defaultFormatter": "ms-python.python", // ms-python.python
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
       "editor.tabSize": 4,
       "editor.insertSpaces": true,
       "editor.formatOnType": true,
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-      }
     },
     "[html]": {
       "editor.formatOnSave": true,
@@ -57,8 +44,28 @@
     },
     // format settings for js
     "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true,
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit",
+        "eslint.autoFixOnSave": "explicit",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit",
+        "eslint.autoFixOnSave": "explicit",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit",
         "source.fixAll": "explicit",
@@ -102,8 +109,8 @@
     "code-runner.executorMap": {
       "python": "clear; python -u",
       // "python": "python -u",
-      "javascript": "node",
-      "typescript": "ts-node",
+      "javascript": "clear; node",
+      "typescript": "clear; ts-node",
     },
     // Better comments settings
     "better-comments.multilineComments": true,
@@ -158,7 +165,9 @@
     // Code Spell Dictionary
     "cSpell.language": "en,pt_PT",
     "cSpell.userWords": [
+      "Clénio",
       "dotenv",
+      "Erivelto",
       "jazzmin",
       "langchain",
       "llms",
@@ -175,5 +184,24 @@
     "terminal.integrated.env.windows": {},
     "tabnine.experimentalAutoImports": true,
     "chatgpt.lang": "en",
-    "files.autoSave": "afterDelay"
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+      "*.sqlite": "${capture}.${extname}-*",
+      "*.db": "${capture}.${extname}-*",
+      "*.sqlite3": "${capture}.${extname}-*",
+      "*.db3": "${capture}.${extname}-*",
+      "*.sdb": "${capture}.${extname}-*",
+      "*.s3db": "${capture}.${extname}-*"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "cSpell.ignoreWords": [
+      "rolepermissions",
+      "simplejwt"
+    ],
+    "console-ninja.featureSet": "Community"
   }
