@@ -64,22 +64,28 @@ This file curates a list of recommended Vs Code extensions for developers workin
 4. <strong>Django</strong> - by: <q>Baptiste Darthenay</q>
 5. <strong>Django Template Support</strong> - by: <q>junstyle</q>
 6. <strong>autoDocstring</strong> - by: <q>Nils Werner</q>
+7. <strong>Flake8</strong> - by: <q>Microsoft</q>
+8. <strong>autopep8</strong> - by: <q>Microsoft</q>
 
 
 <h2 id="javaScriptExtensions"> JavaScript (Node.js and React) Extensions </h2>
 
 1. <strong>StandardJS - JavaScript Standard Style</strong> - by: <q>Standard</q>
-2. <strong>ES7+ React/Redux/React-Native snippets</strong> - by: <q>dsznajder</q>
-3. <strong>Console Ninja </strong> - by: <q>Wallaby.js</q>
-4. <strong>npm Intellisense </strong> - by: <q>Christian Kohler</q>
-5. <strong>Auto Import </strong> - by: <q>steoates</q>
-6. <strong>Auto Import - ES6, TS, JSX, TSX</strong> - by: <q>Sergey Korenuk</q>
+2. <strong>JavaScript and TypeScript Nightly</strong> - by: <q>Microsoft</q>
+3. <strong>ES7+ React/Redux/React-Native snippets</strong> - by: <q>dsznajder</q>
+4. <strong>Console Ninja </strong> - by: <q>Wallaby.js</q>
+5. <strong>npm Intellisense </strong> - by: <q>Christian Kohler</q>
+6. <strong>Auto Import </strong> - by: <q>steoates</q>
+7. <strong>Auto Import - ES6, TS, JSX, TSX</strong> - by: <q>Sergey Korenuk</q>
+8. <strong>ESLint</strong> - by: <q>Microsoft</q>
+9. <strong>Typescript React code snippets</strong> - by: <q>infeng</q>
 
 <h2 id="pythonExtensions"> Git Extensions </h2>\
 
 1. <strong>GitLens</strong> - by: <q>GitKraken</q>
 2. <strong>Git History</strong> - by: <q>Don Jayamanne</q>
 3. <strong>Git Pull Requests and Issues</strong> - by: <q>GitHub</q>
+4. <strong>Mypy Type Checker</strong> - by: <q>Microsoft</q>
 
 <h2 id="dataBaseExtensions"> Database Extensions </h2>\
 
