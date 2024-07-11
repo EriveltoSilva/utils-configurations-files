@@ -14,6 +14,21 @@
     "python.testing.pytestArgs": [], // -x to bail
     "pylint.args": ["load-plugins=pylint_django"],
     "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "flake8.args": [
+        "--max-line-length=120",
+    ],
+    "autopep8.args": [
+          "--max-line-length=120"
+    ],
+    "[html]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+      }
+    },
     "[python]": {
       "editor.defaultFormatter": "ms-python.autopep8",
       "editor.formatOnSave": true,
@@ -23,15 +38,6 @@
       "editor.tabSize": 4,
       "editor.insertSpaces": true,
       "editor.formatOnType": true,
-    },
-    "[html]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "vscode.html-language-features",
-      "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-      }
     },
     "[django-html]": {
       "editor.formatOnSave": false,
