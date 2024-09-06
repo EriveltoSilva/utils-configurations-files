@@ -20,6 +20,7 @@
     "autopep8.args": [
           "--max-line-length=120"
     ],
+    "prettier.printWidth": 120,
     "[html]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "vscode.html-language-features",
@@ -70,7 +71,7 @@
       }
     },
     "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "vscode.typescript-language-features",
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit",
@@ -96,6 +97,9 @@
       "javascript": "javascriptreact",
       "typescript": "typescriptreact"
     },
+    "tailwindCSS.experimental.classRegex": [
+      ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
     // HTML and CSS Support settings
     "css.enabledLanguages": [
       "html",
@@ -172,20 +176,26 @@
     "cSpell.language": "en,pt_PT",
     "cSpell.userWords": [
       "Clénio",
+      "confiabilidade",
+      "corsheaders",
       "dotenv",
       "Erivelto",
       "jazzmin",
+      "KUZINGA",
       "langchain",
       "llms",
+      "necrus",
       "openai",
       "pylint",
       "pypdf",
       "REFERER",
+      "SDLC",
       "streamlit",
       "tabnine",
       "vectorstore",
       "vectorstores",
-      "venv"
+      "venv",
+      "yasg"
     ],
     "terminal.integrated.env.windows": {},
     "tabnine.experimentalAutoImports": true,
@@ -209,5 +219,9 @@
       "rolepermissions",
       "simplejwt"
     ],
-    "console-ninja.featureSet": "Community"
+    "console-ninja.featureSet": "Community",
+    "terminal.integrated.env.linux": {},
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.confirmSync": false,
+    "workbench.colorTheme": "OM Theme (Night Owl Italic)"
   }
