@@ -83,6 +83,7 @@
     "files.associations": {
       "*.js": "javascript",
       "*.jsx": "javascriptreact",
+      "*.tsx": "typescriptreact",
       "*.xml": "html",
       "*.svg": "html",
       "*.html": "html",
